@@ -42,10 +42,9 @@ var currentHour = moment().format("H");
 
 for (let i = 9; i < 18; i++) {
       
-    $("#i").append(localStorage.getItem($(`#${i}`)));
+    form.append(localStorage.getItem($(`#${i}`)));
   }
 
+  
 
 
-
-    // $(`#${i}`).textContent=(i, $(`#${i}`));
