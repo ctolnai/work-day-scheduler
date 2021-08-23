@@ -1,13 +1,14 @@
-var currentDay = document.querySelector("#currentDay");
+var currentDay = $("#currentDay");
 var saveBtn = $(".saveBtn");
 var hour = $(".hour");
-var form = document.querySelector(".form");
+var form = $(".form");
 var notes = $(".notes");
+
 
 // Display day and date on the header
 function displayTime() {
     var rightNow = moment().format("dddd, MMMM Do");
-    currentDay.innerHTML = rightNow;
+    currentDay.text(rightNow);
 
 }
 
@@ -40,10 +41,11 @@ var currentHour = moment().format("H");
 
 // Load notes from local storage
 for (let i = 9; i < 18; i++) {
-      
-    form.append(localStorage.getItem($(`#${i}`)));
+    
+    var id = $(`#${i}`);
+    id.val(localStorage.getItem(i));
+
   }
 
   
-
 
