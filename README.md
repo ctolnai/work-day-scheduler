@@ -1,4 +1,4 @@
-# work-day-scheduler
+# work-day-scheduler [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## https://github.com/ctolnai/work-day-scheduler
 ## https://ctolnai.github.io/work-day-scheduler/
