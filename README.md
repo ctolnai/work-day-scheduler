@@ -1,5 +1,7 @@
 # work-day-scheduler [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
+This application is a simple day planner that allows the user to schedule their work day
+
 ## https://github.com/ctolnai/work-day-scheduler
 ## https://ctolnai.github.io/work-day-scheduler/
 
